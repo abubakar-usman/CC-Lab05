@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 40px;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+nav {
+    background: #002D62;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+
+.hero-text {
+    flex: 1;
+    min-width: 280px;
+}
+
+.hero-image {
+    flex-shrink: 0;
+}
+
+.profile-pic {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    /* Change to 8px if you prefer a rounded square */
+    border: 3px solid #0f172a;
+}
