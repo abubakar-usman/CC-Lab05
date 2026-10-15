@@ -1,28 +1,61 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <title>Projects - Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abubakar - Projects</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <nav>
-        <a href="index.html">Home</a> |
-        <a href="about.html">About</a> |
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
         <a href="projects.html">Projects</a>
+        <a href="images.html">Images</a>
     </nav>
-    <main>
-        <h1>My Projects</h1>
-        <ul>
-            <li><strong>EliteFiling Portal:</strong> Developed client portal features and navigation using Next.js and
-                Tailwind CSS.</li>
-            <li><strong>WatchClub Platform:</strong> Built UI components and community discussion features for a media
-                app.</li>
-            <li><strong>C++ Contact Management System:</strong> Implemented dynamic pointer-based data structures
-                without external libraries.</li>
-        </ul>
-    </main>
+    <div class="page-header">
+        <h1>Technical Projects</h1>
+        <p>Featured Engineering & Cloud Computing Projects</p>
+    </div>
+    <div class="container">
+        <div class="project-card">
+            <h3>1. AWS EC2 Persistent EBS Storage Architecture</h3>
+            <p><strong>Description:</strong> Deployed an EC2 instance with an auxiliary 5GB EBS volume formatted with
+                XFS, persistently mounted via UUID in <code>/etc/fstab</code>, serving web content via Apache.</p>
+            <p><strong>Technologies:</strong> AWS EC2, EBS (gp3), Apache (httpd), Linux (Bash/XFS)</p>
+            <p><strong>My Contribution:</strong> Configured mount configurations, security groups, httpd DocumentRoot
+                mapping, and verified auto-mount behavior across reboots.</p>
+            <p><strong>GitHub:</strong> <a href="https://github.com/abubakar-usman" target="_blank">View on GitHub</a>
+            </p>
+        </div>
+
+        <div class="project-card">
+            <h3>2. Full-Stack Legal Assistance Platform</h3>
+            <p><strong>Description:</strong> Designed and developed a full-stack web application assisting users in
+                legal assessment and scenario structured summarization.</p>
+            <p><strong>Technologies:</strong> Next.js, React, TypeScript, PostgreSQL, Supabase</p>
+            <p><strong>My Contribution:</strong> Architected database schemas, integrated server actions, and
+                implemented client portal endpoints.</p>
+            <p><strong>GitHub:</strong> <a href="https://github.com/abubakar-usman" target="_blank">View on GitHub</a>
+            </p>
+        </div>
+
+        <div class="project-card">
+            <h3>3. S3 Static Web Server & Cloud Hosting</h3>
+            <p><strong>Description:</strong> Converted server-rendered static content into highly accessible serverless
+                storage hosting utilizing Amazon S3 static website endpoints.</p>
+            <p><strong>Technologies:</strong> Amazon S3, Public Bucket Policies, CSS3, HTML5</p>
+            <p><strong>My Contribution:</strong> Configured static website properties, set JSON bucket policy
+                permissions, and verified cross-browser accessibility.</p>
+            <p><strong>GitHub:</strong> <a href="https://github.com/abubakar-usman" target="_blank">View on GitHub</a>
+            </p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2026 Abubakar Usman - Lab 05 S3 Deployment</p>
+    </footer>
 </body>
 
 </html>

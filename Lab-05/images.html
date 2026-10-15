@@ -4,37 +4,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gallery - Portfolio</title>
+    <title>Image Gallery</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="projects.html">Projects</a>
-            <a href="images.html">Images</a>
-        </nav>
-    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="images.html">Images</a>
+    </nav>
 
-    <main style="padding: 2rem; text-align: center;">
-        <h1>Gallery & Affiliations</h1>
-        <p>A look at my professional profile and academic institution.</p>
+    <div class="page-header">
+        <h1>Image Gallery</h1>
+        <p>Portfolio Assets & University Identification</p>
+    </div>
 
-        <div style="display: flex; justify-content: center; gap: 2rem; margin-top: 2rem; flex-wrap: wrap;">
-            <div>
-                <img src="Image.jpg" alt="Profile Photo"
-                    style="width: 250px; height: 250px; object-fit: cover; border-radius: 8px;">
-                <p><strong>Profile Photo</strong></p>
+    <div class="gallery-container">
+        <div class="image-grid">
+            <div class="gallery-card">
+                <img src="Image.jpg" alt="Developer Profile">
+                <h3>Abubakar Bin Usman</h3>
             </div>
-            <div>
-                <img src="nutech.png" alt="University Logo"
-                    style="width: 250px; height: 250px; object-fit: contain; border-radius: 8px;">
-                <p><strong>National University of Technology (NUTECH)</strong></p>
+            <div class="gallery-card">
+                <img src="nutech.png" alt="NUTECH Emblem">
+                <h3>National University of Technology</h3>
             </div>
         </div>
-    </main>
+    </div>
 </body>
 
 </html>

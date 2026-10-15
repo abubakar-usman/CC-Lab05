@@ -1,23 +1,51 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <title>About - Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Abubakar</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <nav>
-        <a href="index.html">Home</a> |
-        <a href="about.html">About</a> |
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
         <a href="projects.html">Projects</a>
+        <a href="images.html">Images</a>
     </nav>
-    <main>
+    <!-- Header Section -->
+    <div class="page-header">
         <h1>About Me</h1>
-        <p><strong>Education:</strong> Computer Science Student at NUTECH, Islamabad.</p>
-        <p><strong>Skills:</strong> Next.js, React, Tailwind CSS, Python, C++, and Cloud Services.</p>
-        <p><strong>Interests:</strong> Cloud computing, AI algorithms, and outdoor hiking.</p>
-    </main>
+    </div>
+
+    <!-- Main Content Container -->
+    <div class="about-container">
+        <!-- Left Side: Image -->
+        <img src="Image.jpg" alt="Abubakar Usman" class="about-image">
+
+        <!-- Right Side: Professional Bio -->
+        <div class="about-text">
+            <h2>Professional Profile</h2>
+            <p>I am Abubakar, a Computer Science and Engineering university student specializing in full-stack web
+                application development and cloud infrastructure management.</p>
+            <p>My development experience spans building responsive client portals and web applications—such as the Elite
+                Filing platform—utilizing Next.js, React, TypeScript, and PostgreSQL databases via Supabase.</p>
+            <p>On the operations side, I am proficient in Linux system administration, Bash scripting, and deploying
+                scalable architecture on Amazon Web Services (AWS), including EC2 compute instances and persistent
+                EBS/S3 storage solutions.</p>
+
+            <h3>Core Technical Stack</h3>
+            <div class="skills-list">
+                <span class="skill-tag">Next.js & React</span>
+                <span class="skill-tag">TypeScript</span>
+                <span class="skill-tag">PostgreSQL & Supabase</span>
+                <span class="skill-tag">AWS (EC2, S3, EBS)</span>
+                <span class="skill-tag">Linux / Bash Scripting</span>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
